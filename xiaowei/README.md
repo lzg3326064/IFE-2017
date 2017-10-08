@@ -1,2 +1,2 @@
-小薇学院
+## 小薇学院
 ![image](https://github.com/lzg3326064/images/blob/master/xiaowei.jpg)
