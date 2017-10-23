@@ -1,0 +1,71 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+blockquote,q {
+quotes:none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+content:none;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+width:100%;
+}
+
+.content {
+	margin: 20px;
+	padding: 20px;
+	background-color: #eee;
+	border: 2px solid #999;
+}
+.left {
+	padding: 20px;
+	float: left;
+	border: 1px solid #999;
+	width: 200px;
+	background-color: #fff;
+}
+.left img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+}
+.left h3 {
+	display: inline-block;
+	float: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+.center {
+	border: 1px solid #999;
+	background-color: #fff;
+	margin-left: 260px;
+	margin-right: 140px;
+	text-indent: 2em;
+	padding: 20px;
+}
+.right {
+	float: right;
+	border: 1px solid #999;
+	background-color: #fff;
+}
+.right img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	margin: 20px;
+}
