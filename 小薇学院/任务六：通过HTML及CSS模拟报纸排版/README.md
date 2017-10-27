@@ -11,7 +11,7 @@
 - 页面中的各字体大小，内外边距等可参看 [标注图（点击查看）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_6_3.jpg)
 - 页面宽度固定（定宽）
 
-demo： [点我](https://codepen.io/lzg3326064/pen/BweXwV)
+demo： [点我](http://www.kumo-ka.com/code/IFE-2017/task_6/index.html)
 
 
 
