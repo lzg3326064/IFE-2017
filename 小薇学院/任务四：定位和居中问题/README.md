@@ -10,7 +10,7 @@
 - 实现如 [示例图（点击打开）](http://7xrp04.com1.z0.glb.clouddn.com/task_1_4_1.png) 的效果
 - 灰色元素水平垂直居中，有两个四分之一圆位于其左上角和右下角。
 
-demo： [点我](https://codepen.io/lzg3326064/pen/mBYyoz)
+demo： [点我](http://www.kumo-ka.com/code/IFE-2017/task_4/index.html)
 
 
 

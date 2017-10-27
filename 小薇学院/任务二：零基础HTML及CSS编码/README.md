@@ -11,5 +11,5 @@
   - 掌握CSS选择器的含义和用法
   - 时间并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
 
-demo：  [点我](https://codepen.io/lzg3326064/pen/dVLoPQ)
+demo：  [点我](http://www.kumo-ka.com/code/IFE-2017/task_2/index.html)
 
