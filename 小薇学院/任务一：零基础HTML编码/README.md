@@ -5,4 +5,4 @@
 > - 能够基于设计稿来合理规划HTML文档结构
 >- 理解语义化，合理地使用HTML标签来构建页面
 
-demo:  [点我](https://codepen.io/lzg3326064/pen/PJebBZ)
+demo:  [点我](http://www.kumo-ka.com/code/IFE-2017/task_1/index.html)
