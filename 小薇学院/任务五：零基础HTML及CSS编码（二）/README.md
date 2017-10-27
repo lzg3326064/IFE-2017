@@ -19,7 +19,7 @@
 - 左侧的各个模块里面的内容宽度跟随左侧整体宽度同步自适应变化
 - 10张图片需要永远都完整展现，所以会随着宽度变窄，从两行变成三行甚至更多，也有可能随着宽度变宽，变成一行
 
-demo： [点我](https://codepen.io/lzg3326064/pen/ZXNGdx)
+demo： [点我](http://www.kumo-ka.com/code/IFE-2017/task_5/index.html)
 
 
 
