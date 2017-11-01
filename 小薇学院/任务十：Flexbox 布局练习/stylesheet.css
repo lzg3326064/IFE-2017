@@ -1,0 +1,55 @@
+.box1,
+.box2,
+.box3,
+.box4
+{
+    box-sizing: border-box;
+    width: 150px;
+    margin: 10px;
+    border: 2px solid #f00;
+}
+.box1
+{
+    height: 120px;
+}
+.box2
+{
+    height: 100px;
+}
+.box3
+{
+    height: 40px;
+}
+.box4
+{
+    height: 200px;
+}
+@media screen and (min-width: 641px)
+{
+    .box
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box4
+    {
+        border: 2px solid #0f0;
+    }
+}
+@media screen and (max-width: 640px)
+{
+    .box
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .box4
+    {
+        border: 2px solid #0f0;
+        order: -1;
+    }
+}
