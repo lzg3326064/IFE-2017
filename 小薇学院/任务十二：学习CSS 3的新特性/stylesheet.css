@@ -1,0 +1,158 @@
+.main
+{
+    width: 70%;
+    margin: 0 auto;
+}
+/*表格*/
+table
+{
+    margin: 0 auto;
+}
+th
+{
+    text-align: left;
+
+    color: #fff;
+    background-color: #000;
+}
+tr:nth-child(2n)
+{
+    background-color: #fff;
+}
+tr:nth-child(2n+1)
+{
+    background-color: #ccc;
+}
+tr:nth-last-child(n+8)
+{
+    color: red;
+}
+/*输入框*/
+.input
+{
+    margin: 50px auto;
+
+    text-align: center;
+}
+input
+{
+    width: 100px;
+    margin-bottom: 50px;
+
+    -webkit-transition: all .8s linear .1s;
+            transition: all .8s linear .1s;
+}
+input:focus
+{
+    width: 200px;
+
+    -webkit-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+            transform: translateY(60px);
+
+    box-shadow: 0 0 2px 2px blue;
+}
+
+/*轮播图*/
+#photos {
+	width: calc(300px * 3);
+	animation: carousel 12s ease-in-out infinite;
+}
+#photos img
+{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.frame
+{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+@keyframes carousel
+{
+    0%,
+    30%
+    {
+        margin-left: 0;
+    }
+    35%,
+    65%
+    {
+        margin-left: -300px;
+    }
+    70%,
+    100%
+    {
+        margin-left: -600px;
+    }
+}
+.num
+{
+    font-weight: bold;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+    opacity: .5;
+    color: #000;
+    background-color: #ccc;
+}
+#p1
+{
+    margin-right: 60px;
+}
+#p2
+{
+    margin-right: 35px;
+}
+#p3
+{
+    margin-right: 10px;
+}
+.num:hover,
+#photos:hover
+{
+    animation-play-state: paused;
+}
+#p1:hover ~ #photos
+{
+    animation: carousel1 .5s ease-out forwards;
+}
+#p2:hover ~ #photos
+{
+    animation: carousel2 .5s ease-out forwards;
+}
+#p3:hover ~ #photos
+{
+    animation: carousel3 .5s ease-out forwards;
+}
+@keyframes carousel1
+{
+    100%
+    {
+        margin-left: 0;
+    }
+}
+@keyframes carousel2
+{
+    100%
+    {
+        margin-left: -300px;
+    }
+}
+@keyframes carousel3
+{
+    100%
+    {
+        margin-left: -600px;
+    }
+}
