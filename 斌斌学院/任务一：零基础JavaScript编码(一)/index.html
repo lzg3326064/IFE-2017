@@ -7,16 +7,31 @@
 <body>
 
   <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
-  <button id="button" onclick="subbmit()">确认填写</button>
+  <button id="button">确认填写</button>
 
   <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
 
 <script type="text/javascript">
-  function subbmit() {
-    var oOutput = document.getElementById("aqi-display"); //获取span元素
-    var otext = document.getElementById("aqi-input"); //获取input元素
-    oOutput.innerHTML = otext.value;  //将input的内容交给span元素以替换之前的内容
-}
+
+(function() {
+  /*    
+  在注释下方写下代码
+  给按钮button绑定一个点击事件
+  在事件处理函数中
+  获取aqi-input输入的值，并显示在aqi-display中
+  */
+
+  //将input元素赋值为input
+  var input = document.getElementById("aqi-input"); 
+
+  //将span元素赋值给display
+  var display = document.getElementById("aqi-display"); 
+
+  //onclick时间绑定于button
+  document.getElementById("button").onclick = function() {
+    display.innerHTML = input.value;
+  }
+})();
 
 </script>
 </body>
