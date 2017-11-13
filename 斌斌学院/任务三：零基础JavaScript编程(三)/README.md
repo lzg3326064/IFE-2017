@@ -1,5 +1,7 @@
 ### 任务三 ：零基础JavaScript编码（三）
 
+demo： [点我](http://www.kumo-ka.com/code/IFE-2017/BBXY/task_3/index.html)
+
 #### 任务目标
 
 - 在上一任务基础上继续JavaScript的体验
@@ -105,9 +107,6 @@ init();
 
 
 
-demo： [点我](http://www.kumo-ka.com/code/IFE-2017/BBXY/task_3/index.html)
 
 
-
-​	     
 
