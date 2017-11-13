@@ -1,5 +1,7 @@
 ### 任务二 ：零基础JavaScript编码（二）
 
+demo： [点我](http://www.kumo-ka.com/code/IFE-2017/BBXY/task_2/index.html)
+
 #### 任务目标
 
 - 在上一任务基础上继续JavaScript的体验
@@ -52,12 +54,4 @@ var aqiData = [
 </body>
 </html>
 ```
-
-
-
-demo： [点我](http://www.kumo-ka.com/code/IFE-2017/BBXY/task_2/index.html)
-
-
-
-​	     
 
