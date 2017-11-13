@@ -1,5 +1,7 @@
 ### 任务一 ：零基础JavaScript编码（一）
 
+demo： [点我](http://www.kumo-ka.com/code/IFE-2017/BBXY/task_1/index.html)
+
 #### 任务目标
 
 - JavaScript初体验
@@ -45,9 +47,4 @@
 
 
 
-demo： [点我](http://www.kumo-ka.com/code/IFE-2017/BBXY/task_1/index.html)
-
-
-
-​	     
 
