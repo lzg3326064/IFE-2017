@@ -66,7 +66,7 @@ function invalidNo() {
   }
 }
 
-//
+//产生随机数
 function random() {
   content.innerHTML = "";
   for(var i = 0; i < 30 ; i++) {
