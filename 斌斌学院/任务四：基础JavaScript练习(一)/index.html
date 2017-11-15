@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>task4</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+        li {
+            background-color: #999;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            color: #fff;
+            float: left;
+            margin: 5px;
+        }
+        li:hover {
+            cursor: pointer;
+        }
+    </style>
+  </head>
+<body>
+    <div>
+        <input type="text" id="input" placeholder="请输入数字">
+        <button id="left-in">左侧入</button>
+        <button id="right-in">右侧入</button>
+        <button id="left-out">左侧出</button>
+        <button id="right-out">右侧出</button>
+    </div>
+    <ul id="content"></ul>
+
+    <script type="text/javascript">
+        var text = document.getElementById("input");
+        var content = document.getElementById("content");
+        // 判断是否为数字
+        text.addEventListener("blur",function() {
+            if(isNaN(text.value)) {
+                alert("请输入数字！");
+                text.value = "";
+            }
+        })
+
+        /* 左侧入
+         * 首先判断input中是否有值
+         * 其次建立元素节点级文本节点
+         * 最后将元素节点添加到父节点的首位
+        */
+        document.getElementById("left-in").addEventListener("click",function() {
+            if(text.value == "") {alert("请先输入数字！"); return false;}
+            var newLi = document.createElement("li");
+            var newText = document.createTextNode(text.value);
+            newLi.appendChild(newText);
+            content.insertBefore(newLi,content.childNodes[0]);
+        })
+
+        /* 右侧入
+         * 首先判断input中是否有值
+         * 其次建立元素节点级文本节点
+         * 最后将元素节点添加到父节点的末尾
+        */
+        document.getElementById("right-in").addEventListener("click",function() {
+            if(text.value == "") {alert("请先输入数字！"); return false;}
+            var newLi = document.createElement("li");
+            var newText = document.createTextNode(text.value);
+            newLi.appendChild(newText);
+            content.appendChild(newLi);
+        })
+
+        /* 左侧出
+         * 首先判断ul中是否有元素存在
+         * 其次提示将要删除的值
+         * 最后将处在第一位的子元素节点删除
+        */
+        document.getElementById("left-out").addEventListener("click",function() {
+            if(content.childNodes.length == 0) {
+                alert("请先输入数字！");
+                return false;
+            }
+            alert("该操作将删除左侧数值：" + content.firstChild.innerHTML);
+            content.removeChild(content.firstChild);
+        })
+
+        /* 右侧出
+         * 首先判断ul中是否有元素存在
+         * 其次提示将要删除的值
+         * 最后将处在末尾的子元素节点删除
+        */
+        document.getElementById("right-out").addEventListener("click",function() {
+            if(content.childNodes.length == 0) {
+                alert("请先输入数字！");
+                return false;
+            }
+            alert("该操作将删除右侧数值：" + content.lastChild.innerHTML);
+            content.removeChild(content.lastChild);
+        })
+
+        //给所有li元素添加点击事件
+        content.addEventListener("click",function(e) {
+            content.removeChild(e.target);
+        })
+    </script>
+</body>
+</html>
