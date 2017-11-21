@@ -1,0 +1,32 @@
+form {
+	width: 350px;
+	margin: 0 auto;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+input {
+	height: 30px;
+	width: 200px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+#button {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #fff;
+	height: 30px;
+	width: 50px;
+	box-sizing: border-box;
+	background-color: #2F79BA;
+}
+p {	
+	margin-top: 5px;
+	text-indent: 50px;
+	font-size: 14px;
+	color: #ccc;
+}
