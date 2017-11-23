@@ -1,0 +1,39 @@
+body {
+	padding-top: 30px;
+}
+form {
+	width: 450px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+	text-align: center;
+	font: 0.8em sans-serif;
+}
+
+.box1 {
+	margin: 40px 0;
+}
+
+#province {
+	margin-right: 30px;
+	margin-left: 5px;
+}
+
+#outSchool {
+	margin-left: 50px;
+}
+
+p {
+	font-style: italic;
+	margin-top: 100px;
+}
+#school , #province {
+	width: 120px;
+}
+
+#company {
+	width: 200px;
+	margin-left: 10px;
+}
