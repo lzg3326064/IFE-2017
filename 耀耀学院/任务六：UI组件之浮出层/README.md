@@ -1,6 +1,6 @@
 ### 任务六：UI组件之浮出层
 
-demo： [点我](http://www.kumo-ka.com/code/IFE-2017/YYXY/task_3/index.html)
+demo： [点我](http://www.kumo-ka.com/code/IFE-2017/YYXY/task_6/index.html)
 
 #### 任务目标
 
