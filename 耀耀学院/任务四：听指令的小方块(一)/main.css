@@ -1,0 +1,70 @@
+table,
+tr,
+td,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+table {
+    margin: 0 auto 20px;
+    border-collapse: collapse;
+}
+tr > td:first-child,
+tr:first-child td {
+    border: none;
+}
+
+td {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+.top,
+.left,
+.right,
+.bottom {
+    background-color: red;
+}
+
+.top div,
+.left div,
+.right div,
+.bottom div {
+    position: absolute;
+    background-color: blue;
+}
+
+.top div,
+.bottom div {
+    width: 100%;
+    height: 15px;
+}
+.top div {
+    top: 0;
+}
+.bottom div {
+    bottom: 0;
+}
+
+.left div,
+.right div {
+    top: 0;
+
+    width: 15px;
+    height: 100%;
+}
+
+.left div {
+    left: 0;
+}
+
+.right div {
+    right: 0;
+}
